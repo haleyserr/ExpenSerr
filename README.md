@@ -1,74 +1,68 @@
-# ExpenSerr
-Project 3
-Submitting Proposal
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Name of Project
+## Available Scripts
 
-> [Live Site](Put the deployed link here once you have it)
+In the project directory, you can run:
 
-## Project Summary
+### `npm start`
 
-ExpenSerr is an Expense Report app that allows employees to submit expenses and route for Approval/Review. 
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The primary roles are as follows:
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-Admin: Set up new accounts and user roles (employee, approver, accountant, etc)
+### `npm test`
 
-Employee: Submit and track Expense Reports
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Approver: Review Employee Expenses, Approve for reimbursement
+### `npm run build`
 
-Accountant: Review Approved Expenses, Post to ERP 
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The magic is in the data. ExpenSerr aims to do more than just take a typically paper-intensive process into the web. ExpenSerr will handle Expense Reports from Travel Start to Check Cut.
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-ExpenSerr is setup with a mock ERP database (inspiration taken from BOLO) to help populate Cost Centers, GL Account Codes, and more. This ensures that Expense Reports are not submitted with any errors and provides a more pleasant employee experience (no guessing a Cost Center).
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Following Accounting Review, ExpenSerr will create an import file (essentially a JE template) which includes the Expense Header and all associated line item detail. This txt file can be sent to your ERP for automatic upload, no need to retype the expense information!
+### `npm run eject`
 
-## Developers
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-- Haley Serr: Coder Extraordinaire
-  - ![Portfolio] (https://haleyserr.github.io/Bootstrap-Portfolio/)
-  - ![GitHub] (https://github.com/haleyserr/)
-  - ![LinkedIn] (https://www.linkedin.com/in/haley-serr-028525147/)
-  
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## Animated Gifs/Pictures of App
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-- Place various screens of your app here after they have been built
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Tech Stack
+## Learn More
 
-- React, JSX, Javascript, HTML, mysql
-- What libraries are used
-- Update at the end of the project
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## APIs
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-- Mock ERP to ExpenSerr
+### Code Splitting
 
-## MVP
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-- Ability to Submit, Approve, and Post Expense Reports
-- Most nervous about ability to upload reciepts/backup
-- Would like to sweep for Check # following payment
+### Analyzing the Bundle Size
 
-## Stretch Goals
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-- Ability to take photos of reciepts with phone
-- Travel Authorization
-- Travel Advance
-- Dashboards/Analytics
-- Export Tools
-- Some ERP's may take an excel template instead of a text document
-- Email/text alerts
-- NT Auth, no extra password
+### Making a Progressive Web App
 
-## Future Development
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-- Bring in other cost items such as company credit cards and automatically generate a report for coding/review
+### Advanced Configuration
 
-## Credits/Resources
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-- Any credits you should list to resources you used
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
